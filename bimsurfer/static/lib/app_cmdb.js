@@ -367,7 +367,7 @@ function BimSurfer() {
 			nodes : [ {
 				type : 'flags',
 				flags : {
-					specular : false, // set specular false
+					specular : false // set specular false
 				}
 			} ]
 		},
@@ -1137,7 +1137,7 @@ function BimSurfer() {
 				coreid : 'flagsTransparent',
 				flags : {
 					picking : false, // Picking enabled
-					transparent : true,
+					transparent : true
 				}
 			} ]
 		};
