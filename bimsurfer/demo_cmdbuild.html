@@ -124,8 +124,8 @@
   		bim.classNames = [ "IfcSlab", "IfcBuildingElementProxy", "IfcFurnishingElement","IfcRoof" ];
   	
   		// connessione a BimServer e importazione progetto
-  		var url  = "http://79.59.135.234:9088";
-  		var user = "admin@tecnoteca.com";
+  		var url  = "http://localhost:8080";
+  		var user = "admin@bimserver.org";
   		var pwd  = "admin";
   		var project = 131073; //65539; //262147; //65539; // roid = last revision id
 		  bimserverImportProject(url,user,pwd,project);
